@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewCustomView", "ListViewCustomView.csproj", "{C3AD96EC-8C52-4FC9-B4B1-724316D17B7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3AD96EC-8C52-4FC9-B4B1-724316D17B7C}.Debug|x86.ActiveCfg = Debug|x86
+		{C3AD96EC-8C52-4FC9-B4B1-724316D17B7C}.Debug|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {880693FF-E75F-4CAA-9679-42FC26C08928}
+	EndGlobalSection
+EndGlobal
