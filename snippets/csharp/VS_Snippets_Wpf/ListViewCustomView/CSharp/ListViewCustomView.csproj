@@ -33,10 +33,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="themes\Generic.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Window1.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -51,8 +47,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneButtonHeaderView.cs" />
-    <Compile Include="PlainView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <AppDesigner Include="Properties\" />
   </ItemGroup>
@@ -64,5 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControlLibrary\CustomControlLibrary.csproj">
+      <Project>{8bb29f77-a9d3-4bf4-8efb-9adcb89c0b27}</Project>
+      <Name>CustomControlLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
